@@ -39,7 +39,7 @@ function categoriaAluno(idade) {
     if (idade >= 10 && idade <= 14) categoria = "Infantil";
     if (idade >= 15 && idade <= 17) categoria = "Juvenil";
     if (idade >= 18 && idade <= 44) categoria = "Adulto";
-    if (idade >= 45) categoria = "Senior";
+    if (idade >= 45 && idade <= 100) categoria = "Senior";
 
     document.getElementById('categoria').value = categoria;
 
